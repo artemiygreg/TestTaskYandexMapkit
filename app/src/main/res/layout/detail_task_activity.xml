@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.testtask.view.activity.DetailTaskActivity">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/toolbar">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/TextViewHeader"
+                android:text="@string/descriptionTask"
+                android:id="@+id/textView" />
+
+            <TextView
+                style="@style/TextViewDesc"
+                android:id="@+id/textViewText"/>
+
+            <TextView
+                style="@style/TextViewHeader"
+                android:text="@string/longDescriptionTask"
+                android:id="@+id/textView2"/>
+
+            <TextView
+                style="@style/TextViewDesc"
+                android:id="@+id/textViewLongText"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/layoutPrices">
+
+                <TextView
+                    style="@style/TextViewHeader"
+                    android:text="@string/pricesTask"
+                    android:id="@+id/textView3"/>
+            </LinearLayout>
+
+            <TextView
+                style="@style/TextViewHeader"
+                android:text="@string/dateTask"
+                android:id="@+id/textView4"/>
+
+            <TextView
+                style="@style/TextViewDesc"
+                android:id="@+id/textViewDate"/>
+
+            <TextView
+                style="@style/TextViewHeader"
+                android:text="@string/locationTask"
+                android:id="@+id/textView5"/>
+
+            <TextView
+                style="@style/TextViewDesc"
+                android:id="@+id/textViewLocationText"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

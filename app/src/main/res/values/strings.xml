@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TestTask</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_update">Update Tasks</string>
+    <string name="title_activity_detail_task">DetailTaskActivity</string>
+    <string name="descriptionTask">Description Task:</string>
+    <string name="longDescriptionTask">Long Description Task:</string>
+    <string name="pricesTask">Prices:</string>
+    <string name="dateTask">Date Task:</string>
+    <string name="locationTask">Location Task:</string>
+    <string name="processingRequest">Processing request…</string>
+</resources>
